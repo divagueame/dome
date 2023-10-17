@@ -22,3 +22,5 @@ Quita tarea2.html de la carpeta 1.
 -10 Crear pagina web en la que el usuario puede poner su edad y la pagina dice si es mayor de edad.
 
 -11 Pagina web con un boton que cambia el fondo de la web entre 3 imagenes diferentes.
+
+-12 Copiar la pagina web https://www.polywork.com/ para que se parezca a lo que primero ve el usuario al entrar. Un nav arriba,  un texto centrado, un boton y una imagen estatica centrada. Puntos extras si en vez de imagen estatica, son imagenes que cambian cada pocos segundos.
