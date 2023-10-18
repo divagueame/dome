@@ -31,5 +31,8 @@ Genial
 
 -12 Copiar la pagina web https://www.polywork.com/ para que se parezca a lo que primero ve el usuario al entrar. Un nav arriba,  un texto centrado, un boton y una imagen estatica centrada. Puntos extras si en vez de imagen estatica, son imagenes que cambian cada pocos segundos.
 
-
 13. Crear un archivo en la raiz de este proyecto, con links a todos los archivos. Opcion sencilla, anadir un <ul> con tantos <li> como links. Opcion mejor, usar javascript para hacer tantos <li> como tu quieras. Puedes buscar appendChild y for loop.
+
+14. Crear una pagina de presentacion con una fotografia y un texto. En la version mobil, la fotografia estara encima del texto. En la version web, estaran uno al lado del otro. *** Pista: '@media query'  o 'display: flex'
+
+15. Anadir simple.css a una web. Anadir nav main footer y estilar una landing de un restaurante ficticio. Anadir enlaces a "#" y que se vea aceptable en mobil y en escritorio. 
