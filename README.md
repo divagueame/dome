@@ -1,6 +1,7 @@
 -Tareas
 
 -1. Crear pagina web con 3 imagenes y 3 parrafos
+Quita tarea2.html de la carpeta 1.
 
 -2. Al entrar, 5 segundos despues, cambia el fondo
 
@@ -16,4 +17,10 @@
 
 -8 anadir dos columnas, una ocn un parrafo, otra con una imagen
 
-prueba
+-9 Crear una 3 html diferentes con los mismos estilos desde un archivo .css. El usuario puede navegar entre las paginas a traves de links.
+
+-10 Crear pagina web en la que el usuario puede poner su edad y la pagina dice si es mayor de edad.
+
+-11 Pagina web con un boton que cambia el fondo de la web entre 3 imagenes diferentes.
+
+-12 Copiar la pagina web https://www.polywork.com/ para que se parezca a lo que primero ve el usuario al entrar. Un nav arriba,  un texto centrado, un boton y una imagen estatica centrada. Puntos extras si en vez de imagen estatica, son imagenes que cambian cada pocos segundos.
