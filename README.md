@@ -20,19 +20,30 @@ Perfetto
 Genial
 
 -7 anadir una imagen que ocupe toda el ancho de la pantalla. Un parrafo. Y Dos imagenes al mismo nivel. Cada una que ocupe el 50%
+done
 
 -8 anadir dos columnas, una ocn un parrafo, otra con una imagen
+done
 
 -9 Crear una 3 html diferentes con los mismos estilos desde un archivo .css. El usuario puede navegar entre las paginas a traves de links.
 
 -10 Crear pagina web en la que el usuario puede poner su edad y la pagina dice si es mayor de edad.
+perfecto
 
 -11 Pagina web con un boton que cambia el fondo de la web entre 3 imagenes diferentes.
+done
 
 -12 Copiar la pagina web https://www.polywork.com/ para que se parezca a lo que primero ve el usuario al entrar. Un nav arriba,  un texto centrado, un boton y una imagen estatica centrada. Puntos extras si en vez de imagen estatica, son imagenes que cambian cada pocos segundos.
+pero tio!!! jaja esta guay pero no has copiado polywork! Te anado otra tarea nueva para hacerlo
 
 13. Crear un archivo en la raiz de este proyecto, con links a todos los archivos. Opcion sencilla, anadir un <ul> con tantos <li> como links. Opcion mejor, usar javascript para hacer tantos <li> como tu quieras. Puedes buscar appendChild y for loop.
 
 14. Crear una pagina de presentacion con una fotografia y un texto. En la version mobil, la fotografia estara encima del texto. En la version web, estaran uno al lado del otro. *** Pista: '@media query'  o 'display: flex'
 
 15. Anadir simple.css a una web. Anadir nav main footer y estilar una landing de un restaurante ficticio. Anadir enlaces a "#" y que se vea aceptable en mobil y en escritorio. 
+
+16. Copiar la pagina web https://www.polywork.com/ para que se parezca a lo que primero ve el usuario al entrar. 
+
+17. Repetir la tarea 10 SIN MIRAR INTERNET ni el CODIGO de la tarea 10!
+
+18. Repetir la tarea 14 SIN MIRAR INTERNET ni el CODIGO de la tarea 14!
