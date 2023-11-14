@@ -1,0 +1,87 @@
+body {
+    font-family: 'MiFuente', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #000000;
+}
+
+main {
+    
+    padding: 20px;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+@media (max-width: 768px) {
+    
+    body {
+        font-size: 16px;
+    }
+
+    header {
+        padding: 5px;
+    }
+}
+@font-face {
+    font-family: 'MiFuente';
+    src: url(Fonts/Amorria-Brush.otf) format('truetype');
+ } body.menu main {
+        height: 100vh;
+        padding: 20px;
+        background-image: url('menu.jpg');
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        color: #fff;
+    }
+    body.index main {
+        height: 100vh;
+        padding: 20px;
+        background-image: url(res2.webp);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+    }
+    body.contactos main {
+        height: 100vh;
+        padding: 20px;
+        background-image: url(res3.jpg);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        color: #fff;
+    }
+    
+    body.contactos main p {
+        align-self: flex-start; 
+        margin-top: 0;
+    }
