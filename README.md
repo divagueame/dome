@@ -38,19 +38,20 @@ done
 pero tio!!! jaja esta guay pero no has copiado polywork! Te anado otra tarea nueva para hacerlo
 done
 
-13. Crear un archivo en la raiz de este proyecto, con links a todos los archivos. Opcion sencilla, anadir un <ul> con tantos <li> como links. Opcion mejor, usar javascript para hacer tantos <li> como tu quieras. Puedes buscar appendChild y for loop.
+-13. Crear un archivo en la raiz de este proyecto, con links a todos los archivos. Opcion sencilla, anadir un <ul> con tantos <li> como links. Opcion mejor, usar javascript para hacer tantos <li> como tu quieras. Puedes buscar appendChild y for loop.
 
-14. Crear una pagina de presentacion con una fotografia y un texto. En la version mobil, la fotografia estara encima del texto. En la version web, estaran uno al lado del otro. *** Pista: '@media query'  o 'display: flex'
+-14. Crear una pagina de presentacion con una fotografia y un texto. En la version mobil, la fotografia estara encima del texto. En la version web, estaran uno al lado del otro. *** Pista: '@media query'  o 'display: flex'
 Perfecta
 
-15. Anadir simple.css a una web. Anadir nav main footer y estilar una landing de un restaurante ficticio. Anadir enlaces a "#" y que se vea aceptable en mobil y en escritorio. 
+-15. Anadir simple.css a una web. Anadir nav main footer y estilar una landing de un restaurante ficticio. Anadir enlaces a "#" y que se vea aceptable en mobil y en escritorio. 
+DONE
 
-16. Copiar la pagina web https://www.polywork.com/ para que se parezca a lo que primero ve el usuario al entrar. 
+-16. Copiar la pagina web https://www.polywork.com/ para que se parezca a lo que primero ve el usuario al entrar. 
 
-17. Repetir la tarea 10 SIN MIRAR INTERNET ni el CODIGO de la tarea 10! Si no te sale, mira el codigo de la tarea durante 3 minutos, y intentalo otra vez sin mirar otra vez.
+-17. Repetir la tarea 10 SIN MIRAR INTERNET ni el CODIGO de la tarea 10! Si no te sale, mira el codigo de la tarea durante 3 minutos, y intentalo otra vez sin mirar otra vez.
 
-18. Repetir la tarea 14 SIN MIRAR INTERNET ni el CODIGO de la tarea 14! Si no te sale, mira el codigo de la tarea durante 3 minutos, y intentalo otra vez sin mirar otra vez.
+-18. Repetir la tarea 14 SIN MIRAR INTERNET ni el CODIGO de la tarea 14! Si no te sale, mira el codigo de la tarea durante 3 minutos, y intentalo otra vez sin mirar otra vez.
 
-19. Crear una calculadora sencilla.
+-19. Crear una calculadora sencilla.
 
 
