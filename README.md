@@ -54,4 +54,8 @@ DONE
 
 -19. Crear una calculadora sencilla.
 
+-20. Crear una calculador sin usar 'eval()' Escribe las funciones add() substract() multiply() divide()
 
+-21. Completar este reto: https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV
+
+-22 Copia la primera pagina de https://www.meneame.net/ Debe tener un sticky nav arriba, dos columnas. La columna de la izquierda contiene bastantes cards, en la columna de la derecha, solo copia la imagen de arriba del todo, abajo del todo pon copia el footer.
