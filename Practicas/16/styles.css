@@ -1,0 +1,77 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #582be8;
+    
+}
+a {
+    color: white;
+    border-color: black;
+  padding: 1rem 1.6rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-decoration: none;
+  font-family:'MiFuente' ;
+}
+@font-face {
+    font-family:'MiFuente' ;
+    src: url(Font/ciccio.otf);
+    
+}
+@font-face {
+    font-family: 'MiFuente';
+    src: url(Font/ciccio.otf) format('truetype');
+ }
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color:#582be8;
+    margin-left: 1px;
+    flex: auto;
+    
+}
+button {
+    color: white;
+    text-align: center;
+    font-size: small;
+    font-weight: 600;
+    line-height: 1.11;
+    box-sizing: border-box;
+    background-color: #40be88; 
+    border-radius: 999px;
+    padding: 1.3rem 2.4rem;
+    max-width: 100%;
+    display: inline-block;
+    
+
+  }
+  body{
+    font-family: 'MiFuente';
+    background-color: #582be8;
+    
+  }
+ .poly {
+    max-width: 150px;
+    margin: left 1.5px;
+ }
+ a {
+  font-size: small;
+  margin-top: 7px;
+ }
+ .Front {
+  font-weight:bold;
+  font-size: 4.2rem;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  line-height: 1.5;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin: .67em 0;
+  display: flex;
+  font-family: 'MiFuente';
+  position: relative;
+  margin-right: 500;
+  margin-top: 100;
+  
+ }
