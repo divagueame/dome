@@ -68,4 +68,4 @@ https://www.codewars.com/kata/54ff3102c1bad923760001f3
 https://www.codewars.com/kata/554b4ac871d6813a03000035
 
 
--25
+-25 Cambiar el archivo index.html en la raiz del proyecto. Ahora mismo, los enlaces estan hard-coded, pero ahora debe automaticamente leer todas las carpetas de Practicas, y anadir un enlace a cada proyecto, por ejemplo: <a href="/Practicas/1">Proyecto 1</a>
