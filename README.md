@@ -59,3 +59,13 @@ DONE
 -21. Completar este reto: https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV
 
 -22 Copia la primera pagina de https://www.meneame.net/ Debe tener un sticky nav arriba, dos columnas. La columna de la izquierda contiene bastantes cards, en la columna de la derecha, solo copia la imagen de arriba del todo, abajo del todo pon copia el footer.
+
+-23 Copia mi primer portfolio sin usar el browser developer tools. Solamente 4 horas en total. Cuando haya pasado el tiempo, la tarea esta completada aunque no hayas acabado.
+https://martin-arce.de/ 
+
+-24 Completa estos kata:
+https://www.codewars.com/kata/54ff3102c1bad923760001f3
+https://www.codewars.com/kata/554b4ac871d6813a03000035
+
+
+-25
