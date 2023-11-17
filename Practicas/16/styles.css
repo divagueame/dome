@@ -8,7 +8,7 @@ a {
     color: white;
     border-color: black;
   padding: 1rem 1.6rem;
-  font-size: 1.4rem;
+  font-size: small;
   font-weight: 600;
   text-decoration: none;
   font-family:'MiFuente' ;
@@ -30,7 +30,7 @@ nav {
     flex: auto;
     
 }
-button {
+.boton {
     color: white;
     text-align: center;
     font-size: small;
@@ -39,7 +39,7 @@ button {
     box-sizing: border-box;
     background-color: #40be88; 
     border-radius: 999px;
-    padding: 1.3rem 2.4rem;
+    padding: 0.8rem 1.6rem;
     max-width: 100%;
     display: inline-block;
     
@@ -54,24 +54,72 @@ button {
     max-width: 150px;
     margin: left 1.5px;
  }
- a {
-  font-size: small;
-  margin-top: 7px;
- }
- .Front {
+ 
+ h1 {
   font-weight:bold;
   font-size: 4.2rem;
   text-align: center;
   padding: 20px;
   box-sizing: border-box;
   line-height: 1.5;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin: .67em 0;
-  display: flex;
   font-family: 'MiFuente';
+  color: white;
+  
+  
+  
+ }
+ h2{
+  color: white;
+  text-align: center;
+  font-family: 'MiFuente';
+ }
+ .boton2 {
+  color: white;
+  text-align: center;
+  font-size: small;
+  font-weight: 600;
+  line-height: 1.11;
+  
+  background-color: #40be88; 
+  border-radius: 999px;
+  padding: 0.8rem 1.6rem;
+ 
+  display: inline; 
+  margin left:50%;
+  
+
+}
+div {
+  text-align: center;
   position: relative;
-  margin-right: 500;
-  margin-top: 100;
+  overflow: hidden;
+}
+.contenedor-imagenes {
+ 
+    display: flex;
+    margin-top: 50px;
+    justify-content: flex-end;
+    position: relative;
+    width: 100%;
+}
+.img {
+  width: 700px; 
+    height: auto;
+    margin: 5px;
+    padding: 10px;
+    flex: 1;
+    
+  
+}
+.scroll {
+  overflow-x: auto;
+  white-space: nowrap; 
+}
+ .imgdx {
+  width: 300px;
+  height: auto;
+  margin: 5px;
+  padding: ;
+  
   
  }
