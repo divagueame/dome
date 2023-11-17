@@ -1,18 +1,23 @@
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #582be8;
+    align-items: center;
+    padding: 10px;
     
 }
 a {
     color: white;
     border-color: black;
-  padding: 1rem 1.6rem;
+  padding: 0.5rem 0.5rem;
   font-size: small;
   font-weight: 600;
   text-decoration: none;
   font-family:'MiFuente' ;
+  margin-left: 1px;
+  gap: 0;
 }
+
 @font-face {
     font-family:'MiFuente' ;
     src: url(Font/ciccio.otf);
@@ -23,11 +28,11 @@ a {
     src: url(Font/ciccio.otf) format('truetype');
  }
 nav {
-    display: flex;
-    justify-content: space-around;
+    /* display: flex; */
+    /* justify-content: flex-end; */
     background-color:#582be8;
-    margin-left: 1px;
-    flex: auto;
+    gap: 0;
+    
     
 }
 .boton {
@@ -48,11 +53,13 @@ nav {
   body{
     font-family: 'MiFuente';
     background-color: #582be8;
+    margin: 0;
+    padding: 0;
     
   }
  .poly {
     max-width: 150px;
-    margin: left 1.5px;
+    margin-right: 10px;
  }
  
  h1 {
@@ -93,7 +100,7 @@ nav {
 .scroll {
   overflow-x: auto;
   white-space: nowrap; 
-  outline: 2px solid red;
+  
   position: absolute;
   margin-top: 50px;
 }
@@ -104,7 +111,7 @@ nav {
     justify-content: flex-end;
     position: relative;
     width: 100%;
-    outline: 2px solid blue;
+    
     margin: auto;
 }
 .img {
