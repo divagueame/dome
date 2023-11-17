@@ -85,22 +85,27 @@ nav {
   padding: 0.8rem 1.6rem;
  
   display: inline; 
-  margin left:50%;
+  margin-left:50%;
   
 
 }
-div {
-  text-align: center;
-  position: relative;
-  overflow: hidden;
+
+.scroll {
+  overflow-x: auto;
+  white-space: nowrap; 
+  outline: 2px solid red;
+  position: absolute;
+  margin-top: 50px;
 }
 .contenedor-imagenes {
  
     display: flex;
-    margin-top: 50px;
+    overflow: hidden;
     justify-content: flex-end;
     position: relative;
     width: 100%;
+    outline: 2px solid blue;
+    margin: auto;
 }
 .img {
   width: 700px; 
@@ -111,15 +116,13 @@ div {
     
   
 }
-.scroll {
-  overflow-x: auto;
-  white-space: nowrap; 
-}
+
  .imgdx {
-  width: 300px;
+  width: 700px;
   height: auto;
-  margin: 5px;
-  padding: ;
+  object-fit: cover;
+  transform: translateX(80%);
+  
   
   
  }

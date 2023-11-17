@@ -1,0 +1,12 @@
+div {
+    position: relative;
+}
+
+h1 {
+    position: relative;
+    margin: auto;
+}
+h2 {
+    position: absolute;
+   margin: auto;
+}
