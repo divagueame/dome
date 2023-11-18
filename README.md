@@ -73,6 +73,11 @@ https://www.codewars.com/kata/554b4ac871d6813a03000035
 
 -25 Cambiar el archivo index.html en la raiz del proyecto. Ahora mismo, los enlaces estan hard-coded, pero ahora debe automaticamente leer todas las carpetas de Practicas, y anadir un enlace a cada proyecto, por ejemplo: <a href="/Practicas/1">Proyecto 1</a>
 
--26 Hacer una calculadora sin apoyo de internet. Puedes mirar la tarea 20 solo antes de empezar esta.
+-26 Hacer una calculadora solo usando los recursos seleccionados. Puedes mirar la tarea 20 antes de empezar. 
 
+Recursos seleccionados:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript
+https://www.w3schools.com/jsrEF/default.asp
+ 
+-27 
 
