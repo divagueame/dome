@@ -47,18 +47,23 @@ Perfecta
 DONE
 
 -16. Copiar la pagina web https://www.polywork.com/ para que se parezca a lo que primero ve el usuario al entrar. 
+Perfect!
 
 -17. Repetir la tarea 10 SIN MIRAR INTERNET ni el CODIGO de la tarea 10! Si no te sale, mira el codigo de la tarea durante 3 minutos, y intentalo otra vez sin mirar otra vez.
 
 -18. Repetir la tarea 14 SIN MIRAR INTERNET ni el CODIGO de la tarea 14! Si no te sale, mira el codigo de la tarea durante 3 minutos, y intentalo otra vez sin mirar otra vez.
 
 -19. Crear una calculadora sencilla.
+Perfect!
 
 -20. Crear una calculador sin usar 'eval()' Escribe las funciones add() substract() multiply() divide()
+Perfect!
 
 -21. Completar este reto: https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV
 
 -22 Copia la primera pagina de https://www.meneame.net/ Debe tener un sticky nav arriba, dos columnas. La columna de la izquierda contiene bastantes cards, en la columna de la derecha, solo copia la imagen de arriba del todo, abajo del todo pon copia el footer.
+Puedes buscar la imagen svg: 
+https://www.svgrepo.com/
 
 -23 Copia mi primer portfolio sin usar el browser developer tools. Solamente 4 horas en total. Cuando haya pasado el tiempo, la tarea esta completada aunque no hayas acabado.
 https://martin-arce.de/ 
@@ -69,3 +74,12 @@ https://www.codewars.com/kata/554b4ac871d6813a03000035
 
 
 -25 Cambiar el archivo index.html en la raiz del proyecto. Ahora mismo, los enlaces estan hard-coded, pero ahora debe automaticamente leer todas las carpetas de Practicas, y anadir un enlace a cada proyecto, por ejemplo: <a href="/Practicas/1">Proyecto 1</a>
+
+-26 Hacer una calculadora solo usando los recursos seleccionados. Puedes mirar la tarea 20 antes de empezar. 
+
+Recursos seleccionados:
+https://developer.mozilla.org/en-US/docs/Web/JavaScript
+https://www.w3schools.com/jsrEF/default.asp
+ 
+-27 
+
