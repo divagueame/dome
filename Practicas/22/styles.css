@@ -21,6 +21,7 @@ nav {
     align-items: center;
 }
 
+nav > * { outline: 2px solid green } 
 select {
     margin-right: 800px;
     width: 350px;
