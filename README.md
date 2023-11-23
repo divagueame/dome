@@ -83,3 +83,6 @@ https://www.w3schools.com/jsrEF/default.asp
  
 -27 Hacer una pagina con ejemplos de diferentes usos de flexbox. Busca combinar justify-content, align-items, flex-direction y margin sobre uno de los flex items. Pon cade ejemplo en una pagina diferente. El usuario debe poder navegar entre los diferentes ejemplos.
 
+-28 Copia la web de CHATGPT. Simula una conversacion. El usuario puede escribir algo y la web responde una respuesta aleatoria.
+
+
