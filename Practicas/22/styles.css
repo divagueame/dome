@@ -95,13 +95,13 @@ a {
     
 }
 
-.link-container,
+
 .text-container {
     margin-top: 10px;
     font-size: 5px;
 }
 
-.link-container a {
+.link-container {
     text-decoration: underline;
     color: blue;
     display: block;
