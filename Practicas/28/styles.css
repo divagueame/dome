@@ -48,12 +48,18 @@ body {
     padding: 20px;
     background-color:#333;
     color: white;
+    position: relative;
 }
 .caja {
     background-color: #333;
     border-radius: 10px;
     padding: 10px;
     margin-bottom: 10px;
+    position: absolute;
+    bottom: 60px; 
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% - 40px);
     
 }
 textarea {
