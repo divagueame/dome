@@ -132,3 +132,14 @@ display: flex;
     font-size: 12px;
     margin-top: -29px;
 }
+.link2 {
+    color: gray;
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: -60px;
+}
+.texto3 {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 25px;
+}
