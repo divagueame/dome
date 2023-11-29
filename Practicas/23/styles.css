@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Quicksand';
+    src: url(Font/Quicksand-Regular.ttf);
+}
+nav {
+     background-color: white;
+     box-sizing: border-box;
+     align-items: flex-end;
+     display: flex;
+     justify-content: flex-end;
+ 
+    
+}
+a {
+    font-family:'Quicksand';
+    font-size: 16px; 
+    text-decoration: none;
+    background-color: white;
+    color:rgb(89, 123, 47, 1);
+    letter-spacing: 0.1rem;
+    font-weight: 500;
+    margin-right: 30px;
+    
+}
+.floating-card {
+    position: fixed;
+    left: -90%;
+    top: 0;
+    height: 100vh;
+    width: 90%;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: left 0.5s ease;
+}
+
+.trigger-area {
+    width: 10%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.content {
+    padding: 20px;
+}
+
+.floating-card:hover {
+    left: 0;
+}
