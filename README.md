@@ -67,6 +67,9 @@ https://www.svgrepo.com/
 
 -23 Copia mi primer portfolio sin usar el browser developer tools. Solamente 4 horas en total. Cuando haya pasado el tiempo, la tarea esta completada aunque no hayas acabado.
 https://martin-arce.de/ 
+Hint:
+    transform: translateX(-100%);
+
 
 -24 Completa estos kata:
 https://www.codewars.com/kata/54ff3102c1bad923760001f3
