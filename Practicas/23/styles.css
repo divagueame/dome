@@ -2,6 +2,7 @@
     font-family: 'Quicksand';
     src: url(Font/Quicksand-Regular.ttf);
 }
+
 nav {
      background-color: white;
      box-sizing: border-box;
@@ -44,14 +45,13 @@ a {
 }
 
 .content {
-    /* padding: 20px; */
+  
     font-family: 'Quicksand';
     color: white;
     border-left: 10px;
 }
-h2 {
-font-size: 18px;
-}
+
+
 p {
     font-size: 30px;
 }
@@ -82,3 +82,39 @@ h1 {
     justify-content: center;
     margin-left:630px ;
 }
+h2 {
+    font-family: 'Quicksand';
+    font-size: 45px;
+    color: white;
+    background-color: rgb(89, 123, 47, 1);
+    padding: 10px;
+    text-align: center;
+    margin-left: 5px;
+    display: flex;
+}
+h3{
+    font-family: 'Quicksand';
+    font-size: 20px;
+    text-align: center;
+    margin-top: 150px;
+    align-self: right;
+    border: 2px solid white; 
+    box-shadow: 2px 2px 5px #888888;
+    padding: 5px;
+    border-radius: 10px;
+    width: 800px;
+    height: 400px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 350px;
+    color: greenyellow;
+    background-color: white;
+
+}
+.green {
+    background-color: rgb(89, 123, 47, 1);
+}
+
+
