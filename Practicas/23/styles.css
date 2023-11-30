@@ -31,8 +31,7 @@ a {
     transform: translateX(0%);
 }
 .trigger-area {
-    /* width: 10%;
-    height: 100vh; */
+    
     background-color: rgb(255, 81, 0);
     cursor: pointer;
     position: absolute;
@@ -55,4 +54,31 @@ font-size: 18px;
 }
 p {
     font-size: 30px;
+}
+h1 {
+    font-family: 'Quicksand';
+    font-size: 25px;
+    text-align: center;
+    margin-top: 150px;
+    align-self: center;
+    border: 2px solid white; 
+    box-shadow: 2px 2px 5px #888888;
+    padding: 5px;
+    border-radius: 10px;
+    width: 600px;
+    height: 200px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 350px;
+}
+.flecha{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin-left:630px ;
 }
