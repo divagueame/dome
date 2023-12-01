@@ -43,7 +43,7 @@ footer {
 }
 @font-face {
     font-family: 'MiFuente';
-    src: url(Fonts/Amorria-Brush.otf) format('truetype');
+    src: url(Fonts/Quicksand-Regular.ttf) format('truetype');
  } body.menu main {
         height: 100vh;
         padding: 20px;
