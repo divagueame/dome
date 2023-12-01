@@ -116,5 +116,35 @@ h3{
 .green {
     background-color: rgb(89, 123, 47, 1);
 }
+.containerlogo{
+    text-align: center;
+    margin-top: 150px;
+    align-self: center;
+    border: 2px solid white; 
+    box-shadow: 2px 2px 5px #888888;
+    padding: 5px;
+    border-radius: 10px;
+    width: 600px;
+    height: 400px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 350px;
+    flex-wrap: wrap;
 
+}
 
+.logos {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: -324px;
+    margin-left: 81px;
+    
+    
+}
+.logos img{
+    margin-right: 100px;
+}
