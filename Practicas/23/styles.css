@@ -27,6 +27,8 @@ a {
     position: fixed;
     transform:translateX(-100%) ;
     background-color:rgb(89, 123, 47, 1);
+    transition: all 1s ease-in;
+    
 }
 .floating-card:hover {
     transform: translateX(0%);
@@ -42,6 +44,7 @@ a {
     writing-mode: vertical-lr;
     text-orientation: upright;
     border-radius: 5px;
+    right: -31px;
 }
 
 .content {
@@ -54,6 +57,7 @@ a {
 
 p {
     font-size: 30px;
+    margin-left: 10px;
 }
 h1 {
     font-family: 'Quicksand';
@@ -125,26 +129,34 @@ h3{
     padding: 5px;
     border-radius: 10px;
     width: 600px;
-    height: 400px;
+    height: 450px;
     box-sizing: border-box;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    /* justify-content: center; */
     margin-left: 350px;
     flex-wrap: wrap;
 
 }
 
 .logos {
-    width: 50px;
-    height: 50px;
+    
     display: flex;
-    justify-content: center;
-    margin-top: -324px;
-    margin-left: 81px;
+    /* justify-content: center; */
+    /* margin-top: -324px; */
+    /* margin-left: 81px; */
+    /* outline: 2px black solid; */
+    flex-wrap: wrap;
+    margin-top: 5px;
+   
     
     
 }
 .logos img{
-    margin-right: 100px;
+    /* margin-right: 100px; */
+    width: 120px;
+    height: 120px;
+    flex-basis: calc(33.3333% - 20px);
+    margin: 10px;
+    margin-top: 5px;
 }
