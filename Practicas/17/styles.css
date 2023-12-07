@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Eb';
+    src: url(Eb.ttf);
+}
+body{
+    font-family: 'Eb';
+    background-image: url(image.jpg);
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    height: 100vh; 
+    margin: 0; 
+    flex-direction: column; 
+
+}
+div{
+    text-align: center;
+    max-width: 800px;
+    display: flex;
+    
+}
+h1 {
+color: blue;
+}
+p {
+color: yellowgreen;
+font-size: 30px;
+text-decoration: underline;
+}
+button {
+    
+    background-color: red; 
+    color: white; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    margin-top: 10px;
+}
