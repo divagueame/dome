@@ -16,12 +16,19 @@
         <input type="number" id="ageInput" placeholder="Insert your age">
         <button onclick="checkAge()">Check</button>
         <p id="result"></p>
-        
+
     </div>
     <script>
         function checkAge() {
             var age = document.getElementById("ageInput").value;
+            var resultElement = document.getElementById("result");
 
+            var age = parseInt(ageInput.value);
+
+            if (isNaN(age) || age < 0) {
+                resultElement.innerHTML = "Please enter a valid positive number";
+                return;
+            }
             if (age >= 18) {
                 document.getElementById("result").innerHTML = "You're of age"
             } else {
