@@ -19,20 +19,20 @@
 
     </div>
     <script>
-       function checkAge() {
+        function checkAge() {
             var ageInput = document.getElementById("ageInput");
             var resultElement = document.getElementById("result");
 
-            
+
             var age = parseInt(ageInput.value);
 
-            
+
             if (isNaN(age) || age < 0) {
                 resultElement.innerHTML = "Please enter a valid positive number";
                 return;
             }
 
-            
+
             if (age >= 18) {
                 resultElement.innerHTML = "You're of age";
             } else {
@@ -40,19 +40,15 @@
             }
         }
 
-        
-        document.getElementById("ageInput").addEventListener("wheel", function (e) {
+
+
+        document.getElementById("ageInput").addEventListener("input", function (e) {
             var ageInput = e.currentTarget;
             var currentValue = parseInt(ageInput.value);
-            var delta = e.deltaY;
 
-            if ((currentValue === 0 && delta < 0) || (currentValue === 0 && delta > 0)) {
-                
-                e.preventDefault();
-            } else if (currentValue + delta < 0) {
-                
-                e.preventDefault();
-                ageInput.value = 0;
+            if (currentValue < 1) {
+               
+                ageInput.value = 1;
             }
         });
     </script>
