@@ -1,9 +1,8 @@
-/* Estilos generales */
 body {
     font-family: 'Pacifico', sans-serif;
 }
 .image img {
-    width: 70%; /* Cambia el valor según tus necesidades */
+    width: 70%; 
 }
 
 .container {
@@ -14,7 +13,7 @@ body {
     text-align: center;
 }
 
-/* Estilos para la versión móvil (pantallas más pequeñas) */
+
 @media (max-width: 768px) {
     .container {
         flex-direction: column-reverse;
@@ -24,7 +23,7 @@ body {
     }
 }
 
-/* Estilos para la versión web (pantallas más grandes) */
+
 @media (min-width: 769px) {
     .container {
         flex-direction: row;
