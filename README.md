@@ -39,6 +39,7 @@ pero tio!!! jaja esta guay pero no has copiado polywork! Te anado otra tarea nue
 done
 
 -13. Crear un archivo en la raiz de este proyecto, con links a todos los archivos. Opcion sencilla, anadir un <ul> con tantos <li> como links. Opcion mejor, usar javascript para hacer tantos <li> como tu quieras. Puedes buscar appendChild y for loop.
+Done
 
 -14. Crear una pagina de presentacion con una fotografia y un texto. En la version mobil, la fotografia estara encima del texto. En la version web, estaran uno al lado del otro. *** Pista: '@media query'  o 'display: flex'
 Perfecta
@@ -50,8 +51,9 @@ DONE
 Perfect!
 
 -17. Repetir la tarea 10 SIN MIRAR INTERNET ni el CODIGO de la tarea 10! Si no te sale, mira el codigo de la tarea durante 3 minutos, y intentalo otra vez sin mirar otra vez.
+Perfect
 
--18. Repetir la tarea 14 SIN MIRAR INTERNET ni el CODIGO de la tarea 14! Si no te sale, mira el codigo de la tarea durante 3 minutos, y intentalo otra vez sin mirar otra vez.
+- 18. None
 
 -19. Crear una calculadora sencilla.
 Perfect!
@@ -64,11 +66,13 @@ Perfect!
 -22 Copia la primera pagina de https://www.meneame.net/ Debe tener un sticky nav arriba, dos columnas. La columna de la izquierda contiene bastantes cards, en la columna de la derecha, solo copia la imagen de arriba del todo, abajo del todo pon copia el footer.
 Puedes buscar la imagen svg: 
 https://www.svgrepo.com/
+Perfecto!
 
 -23 Copia mi primer portfolio sin usar el browser developer tools. Solamente 4 horas en total. Cuando haya pasado el tiempo, la tarea esta completada aunque no hayas acabado.
 https://martin-arce.de/ 
 Hint:
     transform: translateX(-100%);
+Muy buena!
 
 
 -24 Completa estos kata:
@@ -77,6 +81,7 @@ https://www.codewars.com/kata/554b4ac871d6813a03000035
 
 
 -25 Cambiar el archivo index.html en la raiz del proyecto. Ahora mismo, los enlaces estan hard-coded, pero ahora debe automaticamente leer todas las carpetas de Practicas, y anadir un enlace a cada proyecto, por ejemplo: <a href="/Practicas/1">Proyecto 1</a>
+Done
 
 -26 Hacer una calculadora solo usando los recursos seleccionados. Puedes mirar la tarea 20 antes de empezar. 
 
@@ -87,6 +92,9 @@ https://www.w3schools.com/jsrEF/default.asp
 -27 Hacer una pagina con ejemplos de diferentes usos de flexbox. Busca combinar justify-content, align-items, flex-direction y margin sobre uno de los flex items. Pon cade ejemplo en una pagina diferente. El usuario debe poder navegar entre los diferentes ejemplos.
 
 -28 Copia la web de CHATGPT. Simula una conversacion. El usuario puede escribir algo y la web responde una respuesta aleatoria.
+Perfect
 
 -29 Completar Javascirpt basics de The Odin Project y los 3 proyectos.
 https://www.theodinproject.com/lessons/foundations-fundamentals-part-1 
+
+-Repetir la tarea 17 solo con los recursos seleccionados (en tarea 26)
