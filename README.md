@@ -88,4 +88,5 @@ https://www.w3schools.com/jsrEF/default.asp
 
 -28 Copia la web de CHATGPT. Simula una conversacion. El usuario puede escribir algo y la web responde una respuesta aleatoria.
 
-
+-29 Completar Javascirpt basics de The Odin Project y los 3 proyectos.
+https://www.theodinproject.com/lessons/foundations-fundamentals-part-1 
