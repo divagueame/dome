@@ -80,7 +80,8 @@ body.pageproduct {
     min-height: 100vh;
     margin: 0;
 }
-body.about{
+
+body.about {
     font-family: 'Abril';
     background-image: url(Images/about.jpg);
     background-size: cover;
@@ -88,33 +89,37 @@ body.about{
     margin: 0;
 }
 
-body.contacts{
+body.contacts {
     font-family: 'Abril';
     background-image: url(Images/contacts.jpg);
     background-size: cover;
     min-height: 100vh;
     margin: 0;
 }
+
 .prescont {
-    /* display: grid;
-    grid-template-rows: repeat(2, 1fr); 
-    grid-template-columns: 1fr 1fr;
-    gap: 1px;  */
+
     justify-content: center;
     display: flex;
     align-items: center;
-    
+
+
 }
-.prescont > a {
-   display: inline-block;
+
+.prescont>a {
+    display: inline-block;
     margin: 10px;
 }
-.prescont > a > img{
+
+.prescont>a>img {
     max-width: 200px;
     margin: auto;
-    margin-top: 150px;
+
 }
-.prescont > p {
+
+p {
     font-family: 'Hugh';
     font-size: 100px;
+    text-align: center;
+    margin: 0;
 }
