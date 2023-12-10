@@ -123,3 +123,46 @@ p {
     text-align: center;
     margin: 0;
 }
+
+h1 img {
+    max-width: 250px;
+}
+
+.green {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+p.greentext {
+    font-size: 20px;
+    font-family: 'Abril';
+}
+
+.producttext {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    padding: 30px;
+    max-width: 400px;
+    margin: auto;
+    margin-bottom: 70px;
+    text-align: center;
+}
+.aboutus{
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    padding: 30px;
+    max-width: 400px;
+    margin: auto;
+    
+    text-align: center;
+}
+.textabout{
+    font-size:20px ;
+    font-family: 'Abril';
+}
+.textabout::first-letter{
+    font-size: 300%;
+    float: left;
+}
