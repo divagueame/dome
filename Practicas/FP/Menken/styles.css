@@ -23,11 +23,13 @@ body {
     
 
 }
-.vertical-nav button{
+.vertical-nav a{
     background-color: transparent;
     width: 100%;
 }
-
+.vertical-nav li a.active {
+    background-color: brown;
+}
 .vertical-nav li a{
     margin-bottom: 10px;
     border: 3px solid brown;
@@ -36,25 +38,29 @@ body {
     text-decoration: none;
     
 }
-.vertical-nav li a button:active,
-.vertical-nav li a button:focus,
-.vertical-nav li a button:hover {
+.vertical-nav li a:active,
+.vertical-nav li a:focus,
+.vertical-nav li a:hover {
     background-color: darkred;
+
 }
+
 .contenedor-cuerpo{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     padding: 15px;
+    flex-direction: row;
+    flex-wrap: wrap;
     }
 .cuerpo {
     width: 200px; 
     height: 200px; 
-    padding: 20px;
+    padding: 30px;
     border: 3px solid brown;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 10px;
     margin: 20px;
 }
 
@@ -69,7 +75,7 @@ p::first-letter{
 .cuerpoultimo{
     width: 200px; 
     height: 200px; 
-    padding: 20px;
+    padding: 30px;
     border: 3px solid brown;
     display: flex;
     justify-content: center;
@@ -78,3 +84,4 @@ p::first-letter{
     margin: 20px;
     flex-wrap: wrap;
 }
+
