@@ -23,11 +23,12 @@ body {
     max-width: 75%;
     margin: auto;
     word-spacing: 10px;
-    z-index: 1;
+    z-index: 3;
 }
 .monedas{
     position: absolute;
-    top:0
+    top:0;
+    z-index: 3;
 }
 .monedas2{
     position:absolute;
