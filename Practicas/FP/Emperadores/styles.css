@@ -29,6 +29,7 @@ body {
     position: absolute;
     top:0;
     z-index: 3;
+    left: 0;
 }
 .monedas2{
     position:absolute;
