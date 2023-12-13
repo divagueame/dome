@@ -1,17 +1,6 @@
 body {
     background-color: aqua;
 }
-
-.monedas img {
-    float: left;
-    display:inline-block
-}
-
-.monedas2 img {
-    float: right;
-    display: inline-block;
-}
-
 .titulo {
     color: red;
     font-family: 'Times New Roman', Times, serif;
@@ -27,8 +16,40 @@ body {
     font-size: 15px;
     text-align: center;
 }
+.mainbody{
+    position: relative;
+}
+.maintext{
+    max-width: 75%;
+    margin: auto;
+    word-spacing: 10px;
+    z-index: 1;
+}
+.monedas{
+    position: absolute;
+    top:0
+}
+.monedas2{
+    position:absolute;
+    top: 0;
+    right: 0; 
+    
+}
+
+
 .augusto {
   display: block;
-  margin: auto;
-  width: 10%;
+  width: 13%;
+  float: left;
+  margin-right: 10px;
+}
+footer{
+    text-align: center;
+    margin:auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    font-size: 18px ;
 }
