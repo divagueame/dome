@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <h1>Survey Form</h1>
+    <form id="form">
+
+        <div class="form-control">
+            <label for="name" id="label-name">
+                Name
+            </label>
+            <input type="text" id="name" placeholder="Enter your name" />
+        </div>
+
+        <div class="form-control">
+            <label for="surname" id="label-surname">
+                Surname
+            </label>
+            <input type="text" id="surname" placeholder="Enter your surname" />
+        </div>
+
+        <div class="form-control">
+            <label for="age" id="label-age">
+                Age
+            </label>
+            <input type="text" id="age" placeholder="Enter your age" />
+        </div>
+
+        <div class="form-control">
+            <label for="job" id="label-job">
+                Job
+            </label>
+            <select name="job" id="job">
+                <option value="student">Student</option>
+                <option value="worker">Worker</option>
+                <option value="unemployed">Unemployed</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div class="form-control">
+            <label>
+                Are you satisfied with our service?
+            </label>
+            <label for="service-1">
+                <input type="radio" id="service-1" name="service">Yes</input>
+            </label>
+            <label for="service-2">
+                <input type="radio" id="service-2" name="service">No</input>
+        </div>
+
+        <div class="form-control">
+            <label>Which of our services should we improve?
+                <small>(Check all that apply)</small>
+            </label>
+            <label for="inp-1">
+                <input type="checkbox" name="inp">Shipment</input></label>
+            <label for="inp-2">
+                <input type="checkbox" name="inp">Customer Care</input></label>
+            <label for="inp-3">
+                <input type="checkbox" name="inp">Prices</input></label>
+            <label for="inp-4">
+                <input type="checkbox" name="inp">Refunds</input></label>
+            <label for="inp-5">
+                <input type="checkbox" name="inp">Quality</input></label>
+        </div>
+
+        <div class="form-control">
+            <label for="comment">
+                Any comments or suggestions
+            </label>
+ 
+            
+            <textarea name="comment" id="comment"
+                placeholder="Enter your comment here">
+            </textarea>
+        </div>
+
+        <button type="submit" value="submit">
+            Submit
+        </button>
+  
+    </form>
+</body>
+
+</html>
