@@ -90,6 +90,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript
 https://www.w3schools.com/jsrEF/default.asp
  
 -27 Hacer una pagina con ejemplos de diferentes usos de flexbox. Busca combinar justify-content, align-items, flex-direction y margin sobre uno de los flex items. Pon cade ejemplo en una pagina diferente. El usuario debe poder navegar entre los diferentes ejemplos.
+Done
 
 -28 Copia la web de CHATGPT. Simula una conversacion. El usuario puede escribir algo y la web responde una respuesta aleatoria.
 Perfect
@@ -97,4 +98,6 @@ Perfect
 -29 Completar Javascirpt basics de The Odin Project y los 3 proyectos.
 https://www.theodinproject.com/lessons/foundations-fundamentals-part-1 
 
--Repetir la tarea 17 solo con los recursos seleccionados (en tarea 26)
+-30 Tienda de musica
+
+-31 Repetir la tarea 17 solo con los recursos seleccionados (en tarea 26)
