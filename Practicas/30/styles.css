@@ -5,37 +5,48 @@
 body{
     background-image: url(Img/sfondo.jpeg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 260px 48px;
+    background-size: 60%;
     margin: 0;
     padding: 0;
     display: flex; 
     justify-content: space-between;
     align-items: center;
+    background-color: purple;
    
 }
 nav .logo {
-    width: 20%;
+    max-width: 15%;
    
    
 }
 nav {
     display: flex;
+    align-items: center;
 }
 nav a{
     font-family: 'make';
     color: red;
     font-size: 30px;
     text-decoration: none;
-    margin: 0;
+    margin: 0 35px;
     
    
     
 }
 nav a:hover{
-    background-color: red;
+    color: yellow;
+    text-decoration: underline;
 }
 .textnav{
-    display: inline-block;
-    align-content: center;
-    margin: 0;
+    display: flex;
+    /* align-content: center; */
+    margin: 0 5px auto;
+}
+
+.body-products{
+    background-image: url(Img/secondario.jpeg);
+    background-size: 50%;
+    background-color: aqua;
+    background-position: 335px 48px;
 }
