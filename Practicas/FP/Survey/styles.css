@@ -51,6 +51,7 @@ button and Checkbox */
 .form-control input[type="checkbox"] {
     display: inline-block;
     width: auto;
+    font-family: 'survey';
 }
 button {
     background-color:rgba(255, 255, 255, 0.1);

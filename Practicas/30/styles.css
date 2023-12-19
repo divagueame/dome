@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'make';
+    src: url(Fonts/make.ttf);
+}
+body{
+    background-image: url(Img/sfondo.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+   
+}
+nav .logo {
+    width: 20%;
+   
+   
+}
+nav {
+    display: flex;
+}
+nav a{
+    font-family: 'make';
+    color: red;
+    font-size: 30px;
+    text-decoration: none;
+    margin: 0;
+    
+   
+    
+}
+nav a:hover{
+    background-color: red;
+}
+.textnav{
+    display: inline-block;
+    align-content: center;
+    margin: 0;
+}
