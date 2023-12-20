@@ -3,16 +3,16 @@
     src: url(Fonts/make.ttf);
 }
 body{
-    background-image: url(Img/sfondo.jpeg);
-    background-repeat: no-repeat;
+    
+    /* background-repeat: no-repeat;
     background-position: 260px 48px;
-    background-size: 60%;
-    margin: 0;
+    background-size: 60%; */
+    /* margin: 0;
     padding: 0;
     display: flex; 
     justify-content: space-between;
-    align-items: center;
-    background-color: purple;
+    align-items: center; */
+    
    
 }
 nav .logo {
@@ -43,10 +43,86 @@ nav a:hover{
     /* align-content: center; */
     margin: 0 5px auto;
 }
+.bodyindex{ background-image: url(Img/sfondo.jpeg);
+    background-repeat: no-repeat;
+    background-position: 260px 48px;
+    background-size: 60%;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    background-color: purple;
 
-.body-products{
-    background-image: url(Img/secondario.jpeg);
+}
+
+.body-products {
+    /* background-image: url(Img/secondario.jpeg); */
     background-size: 50%;
-    background-color: aqua;
+    background-color: black;
     background-position: 335px 48px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+.sell {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 2rem; 
+    margin: 2rem 0;
+}
+.sell img {
+    width: 50%; 
+    max-width: 400px;
+    height: auto; 
+    display: flex; 
+    margin: 0 auto;
+    align-items: center;
+}
+.prodotti a {
+    font-family: 'make';
+    color: yellow;
+}
+.prodotti{
+    text-align: center;
+}
+.prodotti a:hover{
+    color: red;
+}
+body.contactos {
+    /* margin: 0;
+    padding: 0; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(green, yellow, red);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+    
+}
+.social{
+    font-family: 'make';
+    font-size: 30px;
+}
+.cont {
+
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.cont>a {
+    display: inline-block;
+    margin: 10px;
+}
+
+.cont>a>img {
+    max-width: 200px;
+    margin: auto;
+
 }
