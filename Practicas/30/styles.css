@@ -126,3 +126,29 @@ body.contactos {
     margin: auto;
 
 }
+body.lessons{
+    background-image: url(Img/lessons2.jpeg);
+    background-repeat: no-repeat;
+    background-position: 260px 48px;
+    background-size: 60%;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+
+}
+.textlessons{
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    padding: 30px;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+}
+p.teach::first-letter{
+    font-size: 300%;
+    float: left;
+}
