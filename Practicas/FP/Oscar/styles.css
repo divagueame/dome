@@ -1,0 +1,36 @@
+body{
+    background-color: sandybrown;
+}
+h1{
+    margin: 0;
+    color: grey;
+    font-family: sans-serif;
+    position: relative;
+    text-align: center;
+
+}
+div{
+    height: 300px;
+    width: 300px;
+    border: 4px dashed brown;
+    position: relative;
+    float: left;
+    margin: 25px;
+    background-color: sandybrown;
+}
+h2{
+    background-color: brown;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+p {
+    font-family: 'Times New Roman', Times, cursive;
+    color: black;
+    font-size: 25px;
+    
+}
+p::first-letter{
+    size: 800%;
+    float: left;
+}
