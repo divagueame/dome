@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Survey</h1>
+    <form id="form">
+      <div class="formcontrol">
+        <label for="name" id="name"> Name </label>
+        <input type="text" id="name" placeholder="Name" />
+      </div>
+
+      <div class="formcontrol">
+        <label for="surname" id="surname"> Surname</label>
+        <input type="text" id="surname" placeholder="Surname" />
+      </div>
+      <div class="formcontrol">
+        <label for="country" id="country"> Country </label>
+        <select name="country" id="country">
+          <option value="Italy">Italy</option>
+          <option value="Spain">Spain</option>
+          <option value="France">France</option>
+          <option value="Greece">Greece</option>
+        </select>
+      </div>
+      <div class="formcontrol">
+        <label for="hobbies">Hobbies</label>
+        <label for="inp-1">
+          <input type="checkbox" name="inp" />sacciuchi
+        </label>
+        <label for="inp-2">
+          <input type="checkbox" name="inp" />sacciucomu
+        </label>
+      </div>
+    </form>
+  </body>
+</html>
