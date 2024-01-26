@@ -1,0 +1,13 @@
+.all{
+    border: 2px dotted black;
+    width: 550px;
+    height: 972px;
+    position: relative;
+}
+.lista{
+    border: 2px dotted black;
+    width: 100;
+    height: 100;
+    border-radius: 15px;
+    padding: 5px;
+}
