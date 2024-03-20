@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function info (cadena){
+            let resultado = "La cadena \"" +
+                            cadena +
+                            "\" ";
+
+            if(cadena == cadena.toUpperCase()){
+                resultado += " esta formada solo por mayusculas";
+                // resultado = resultado + " esta formada solo por mayusculas";
+            }
+            else if (cadena == cadena.toLowerCase() ) {
+                resultado += "esta formada solo por minunsculas";
+            }
+            else {
+                resultado += "esta formada por mayusculas y minuscula;"
+            }
+
+            return resultado;
+        }
+
+        const culo = info("MEOW")
+        console.log(culo)
+    </script>
+</body>
+</html>

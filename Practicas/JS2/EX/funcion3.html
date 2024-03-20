@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Definir una función que determine si la cadena de texto que se le pasa como parámetro es un palíndromo, es decir, 
+    si se lee de la misma forma desde la izquierda y desde la derecha. 
+    Ejemplo de palíndromo complejo: "La ruta nos aporto otro paso natural". -->
+
+    <script>
+        function pali(cadena) {
+            var re = /[^A-Za-z0-9]/g;
+            cadena = cadena.toLowerCase().replace(re, '');
+            var len = str.length;
+            for (var i = 0; i < len / 2; i++) {
+                if (str[i] !== str[len - 1 - i]) {
+                    return false;
+                }
+            }
+            return true;
+        }
+        alert(pali("A man, a plan, a canal. Panama"));
+        
+    </script>
+</body>
+
+</html>
