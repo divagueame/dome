@@ -11,12 +11,13 @@
 
     lastLetter("abcd") should return "d" -->
 <script>
-function lastLetter(letra){
-    let ultimaLetra= letra.slice(-1);
-    return ultimaLetra;
+function lastLetter(word){
+    let lastIndex = word.length -1;
+    let result=word.charAt(lastIndex);
+    return result;
 }
-let palabra=lastLetter("tuasorella");
-console.log(palabra);
+let ultimaLetra=lastLetter("dhakjshdakj");
+console.log(ultimaLetra);
 </script>
 </body>
 </html>
