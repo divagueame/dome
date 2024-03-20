@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Write a function called capitalize that 
+    takes a string and returns that string with 
+    only the first letter
+    capitalized. Make sure that it 
+    can take strings that are lowercase, 
+    UPPERCASE or BoTh. -->
+
+    <script>
+        
+        function capitalize(str){
+            const primeraLetra = str.charAt(0).toUpperCase()
+            const restoPalabra = str.slice(1)
+
+            return primeraLetra + restoPalabra;
+        }
+        let string= capitalize("freeCodecamp");
+        
+        console.log(string);
+    </script>
+</body>
+
+</html>
