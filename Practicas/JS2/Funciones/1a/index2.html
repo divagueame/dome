@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function ej2(number){
+            let counter=0;
+            while (number!=0){
+                counter++;
+                number=parseInt(number/10);
+            }
+            return counter;
+        }
+        alert (ej2(1024))
+
+//         function ej2(num){
+// var digitos=0;
+// while(num!=0){
+// digitos++;
+// num=parseInt(num/10); //nos aseguramos de que la división sea entera
+// }
+// return digitos;
+// }
+// alert(ej2(1024)); 
+    </script>
+</body>
+</html>
