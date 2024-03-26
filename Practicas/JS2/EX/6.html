@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Diseñar un algoritmo que muestre una letra para representar la calificación del
+alumno, las calificaciones son notas entre 1 y 10; El algoritmo mostrará:
+▪ A para calificaciones mayores o iguales a 9
+▪ B para calificaciones mayores o iguales a 8
+▪ C para calificaciones mayores o iguales a 7
+▪ D para calificaciones mayores o iguales a 6
+▪ F para todas las demás calificaciones. -->
+
+    <script>
+        let grade = parseInt(prompt("Please enter your grade between 1 and 10 "));
+        switch (grade) {
+            case 0:
+            case 1:
+            case 2:
+            case 3:
+            case 4:
+            case 5: document.write("<p>F</p>"); break;
+            case 6: document.write("<p>D</p>"); break;
+            case 7: document.write("<p>C</p>"); break;
+            case 8: document.write("<p>B</p>"); break;
+            case 9:
+            case 10: document.write("<p>A</p>"); break;
+        }
+    </script>
+</body>
+
+</html>

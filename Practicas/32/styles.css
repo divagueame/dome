@@ -1,0 +1,32 @@
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+.textnav {
+    font-size: 14px;
+    display: flex;
+    /* outline: 2px solid black; */
+    justify-content: center;
+    border-bottom: 2px solid black;
+
+}
+nav{
+    display: flex;
+    gap: 40px;
+}
+.leftarticle{
+    display:flex;
+    flex-direction: column;
+}
+.article1{
+    display: inline-block;
+    max-width: 290px;
+}
+.writers{
+    color: gray;
+}
+#e{
+    width: 17px;
+    height: 17px;;
+}
