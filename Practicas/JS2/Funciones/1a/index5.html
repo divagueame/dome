@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,td{
+            border: 2px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        function ej5(filas, cols){
+            var salida = "<table>";
+                for (let f=0; f< filas; f++){
+                    salida += "<tr>";
+                        for (let c=0; c<cols; c++){
+                            salida += "<td>";
+                                const randomNumber = Math.random();
+                                const totalRandom = randomNumber*(500-100+1);
+                                salida+=parseInt(totalRandom)+100;
+                                salida += "</td>";
+                        }
+                        salida += "</tr>";
+                }
+                salida += "</table>";
+                document.write(salida);
+        }
+        ej5(5,3);
+    </script>
+</body>
+</html>
