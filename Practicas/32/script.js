@@ -16,11 +16,21 @@ console.log(imagen['src'])
 console.log(imagen.src)
 
 
-let images = [ "img/3.jpeg", "img/4.jpg", "img/5.jpg" ]
+let images = ["img/3.jpeg", "img/4.jpeg", "img/8.jpeg"]
 
-function changeimg (img, imagepath){
-    img.src=imagepath;
-}
-setTimeout(() => {
-    changeimg(imagen,"img/8.jpeg" )
-}, 3000);
+
+
+
+for (let i = 0; i < images.length; i++) {
+    console.log(images[i]);
+
+    setTimeout(() => {
+        imagen.src = images[i];
+
+    }, 3000 * i);
+};
+
+
+
+
+
