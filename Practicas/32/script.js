@@ -18,26 +18,19 @@ console.log(imagen.src)
 
 let images = ["img/3.jpeg", "img/4.jpeg", "img/8.jpeg"]
 
-
-
-
 for (let i = 0; i < images.length; i++) {
-    console.log(images[i]);
-
     setTimeout(() => {
         imagen.src = images[i];
-
     }, 3000 * i);
 };
+
 function startImageLoop() {
     let currentIndex = 0;
-
     setInterval(() => {
-        imagen.src = images[currentIndex];
-        currentIndex = (currentIndex + 1) % images.length;
+        imagen.src=images[currentIndex];
+        currentIndex= (currentIndex +1) % images.length;
     }, 3000);
 }
-
 startImageLoop();
 
 

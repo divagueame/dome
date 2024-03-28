@@ -11,33 +11,130 @@
     border-bottom: 2px solid black;
 
 }
-nav{
+
+nav {
     display: flex;
     gap: 40px;
+    
 }
-.leftarticle{
-    display:flex;
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.content {
+    display: flex;
+    /* margin-left: 260px; */
+    /* margin-right: 260px; */
+    margin: 0 auto;
+    max-width: 60%;
+    /* border-bottom: 2px double black; */
+    border-bottom-width: medium;
+border-bottom-style: double;
+border-bottom-color: rgb(0, 0, 0);
+}
+
+.leftcolumn {
+    display: flex;
     flex-direction: column;
+    border-right: 1px solid rgb(235, 235, 232);
+    padding: 25px;
+    min-width: 25%;
 }
-.article1{
+
+.article1 {
     display: inline-block;
-    max-width: 290px;
+    max-width: 350px;
 }
-.writers{
+
+.writers {
     color: gray;
 }
-#e{
+
+#e {
     width: 17px;
     height: 17px;
     margin-right: 4px;
 }
-.centercolumn{
+
+.centercolumn {
     max-width: 500px;
     max-height: 800px;
-    margin-left: 420px;
-    margin-top: -637px;
+    display: inline-block;
+    margin-inline: 25px;
+    margin-top: 20px;
 }
-.centercolumn img{
+
+.centercolumn img {
     max-width: 500px;
     max-height: 500px;
+}
+
+.rightcolumn {
+    border-left: 1px solid rgb(235, 235, 232);
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.opicol {
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+.opi {
+    font-style: oblique;
+    font-weight: bold;
+
+}
+
+.opiart {
+    color: gray;
+    font-size: 14px;
+}
+.content2{
+    display: flex;
+    margin: 0 auto;
+    max-width: 60%;
+    border-top: 5px solid black;
+    margin-top: 40px;
+    border-bottom: 1px solid rgb(235, 235, 232);
+}
+@font-face {
+    font-family: "Majerit";
+    src: url(font/e54f2787dc204d85532c83894e4f4283.ttf);
+}
+.leftcolumn2{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    min-width: 25%;
+    max-width: 25%;
+  text-align: center;
+  
+}
+.leftcolumn2 h1 {
+    font-family: "Majerit";
+}
+.rightcolumn2 img{
+    margin-top: 25px;
+}
+.rightcolumn2 h6{
+    color: gray;
+    margin-left: 463px;
+  margin-top: 1px;
+
+}
+.A{
+    color: black;
+}
+.content3{
+    display: flex;
+    margin: 0 auto;
+    max-width: 60%;
+    flex-direction: column;
+}
+.smallimg{
+    height: 150px;
+    width: 250px;
 }
