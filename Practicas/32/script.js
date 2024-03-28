@@ -33,6 +33,13 @@ function startImageLoop() {
 }
 startImageLoop();
 
+function hiddenBanner(){
+
+   let element = document.getElementById("overlay");
+    element.classList.add("hidden");
+}
+
+document.getElementById("consent-button").addEventListener("click",hiddenBanner);
 
 
 
