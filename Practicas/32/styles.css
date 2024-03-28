@@ -31,3 +31,13 @@ nav{
     height: 17px;
     margin-right: 4px;
 }
+.centercolumn{
+    max-width: 500px;
+    max-height: 800px;
+    margin-left: 420px;
+    margin-top: -637px;
+}
+.centercolumn img{
+    max-width: 500px;
+    max-height: 500px;
+}
