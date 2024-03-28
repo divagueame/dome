@@ -29,6 +29,16 @@ for (let i = 0; i < images.length; i++) {
 
     }, 3000 * i);
 };
+function startImageLoop() {
+    let currentIndex = 0;
+
+    setInterval(() => {
+        imagen.src = images[currentIndex];
+        currentIndex = (currentIndex + 1) % images.length;
+    }, 3000);
+}
+
+startImageLoop();
 
 
 
