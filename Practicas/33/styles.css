@@ -109,7 +109,10 @@ footer{
 .socials{
     display: flex;
     flex-direction: row;
+    max-width: 100%;
+    margin: 0 auto;
 }
 .socials img{
-    max-width: 100%;
+   width: 200px;
+   height: auto;
 }
