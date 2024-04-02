@@ -1,11 +1,11 @@
-function hiddenBanner() {
+function hideBanner() {
 
     let element = document.getElementById("overlay");
     element.classList.add("hidden");
     localStorage.setItem("bannerHidden", "true");
 }
 
-document.getElementById("consent-button").addEventListener("click", hiddenBanner);
+document.getElementById("consent-button").addEventListener("click", hideBanner);
 
 window.addEventListener("load", function(){
     let bannerHidden = localStorage.getItem("bannerHidden");
@@ -13,7 +13,6 @@ window.addEventListener("load", function(){
         let element = document.getElementById("overlay");
         element.classList.add("hidden");
     }
-
 });
 
 const imagen = document.querySelector(".cambio")

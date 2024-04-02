@@ -57,3 +57,59 @@ footer{
     color: blueviolet;
     font-family: "quick";
 }
+@font-face {
+    font-family: "Londrina" ;
+    src: url(font/LondrinaSolid-Light.ttf);
+}
+.textadopt{
+    text-align: center;
+    font-family: "Londrina";
+    font-size: 20px;
+    color: firebrick;
+}
+.animals{
+    display: flex;
+    flex-direction: column;
+}
+.adoptcat{
+    display: flex;
+    flex-direction: column;
+}
+.adoptdog{
+    display: flex;
+    flex-direction: column;
+}
+.textanimals{
+    text-align: center;
+    font-family: "Londrina";
+    font-size: 31px;
+    color: blue;
+    text-decoration: underline;
+}
+
+.textproduct{
+    text-align: center;
+    font-family: "Londrina";
+    font-size: 20px;
+    color: rgb(89, 34, 178);
+}
+
+.textaboutus{
+    text-align: center;
+    font-family: "Londrina";
+    font-size: 20px;
+    color: rgb(25, 210, 99);
+}
+.follow{
+    text-align: center;
+    font-family: "Londrina";
+    font-size: 20px;
+    color: black;
+}
+.socials{
+    display: flex;
+    flex-direction: row;
+}
+.socials img{
+    max-width: 100%;
+}
