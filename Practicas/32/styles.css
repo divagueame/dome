@@ -1,13 +1,12 @@
-@media screen and (min-width:481px) {
-    
-}
-body{
+body {
     border: 0;
     margin: 0;
 }
-#overlay a{
+
+#overlay a {
     color: red;
 }
+
 .image {
     display: flex;
     justify-content: center;
@@ -25,26 +24,26 @@ body{
 nav {
     display: flex;
     gap: 40px;
-    
-    
+
+
 }
-nav a{
+
+nav a {
     text-decoration: none;
     color: black;
-    
+
 }
 
 .content {
     display: flex;
-    /* margin-left: 260px; */
-    /* margin-right: 260px; */
     margin: 0 auto;
     max-width: 60%;
-    /* border-bottom: 2px double black; */
     border-bottom-width: medium;
-border-bottom-style: double;
-border-bottom-color: rgb(0, 0, 0);
+    border-bottom-style: double;
+    border-bottom-color: rgb(0, 0, 0);
 }
+
+
 
 .leftcolumn {
     display: flex;
@@ -104,7 +103,8 @@ border-bottom-color: rgb(0, 0, 0);
     color: gray;
     font-size: 14px;
 }
-.content2{
+
+.content2 {
     display: flex;
     margin: 0 auto;
     max-width: 60%;
@@ -112,35 +112,42 @@ border-bottom-color: rgb(0, 0, 0);
     margin-top: 40px;
     border-bottom: 1px solid rgb(235, 235, 232);
 }
+
 @font-face {
     font-family: "Majerit";
     src: url(font/e54f2787dc204d85532c83894e4f4283.ttf);
 }
-.leftcolumn2{
+
+.leftcolumn2 {
     display: flex;
     flex-direction: column;
     padding: 25px;
     min-width: 25%;
     max-width: 25%;
-  text-align: center;
-  
+    text-align: center;
+
 }
+
 .leftcolumn2 h1 {
     font-family: "Majerit";
 }
-.rightcolumn2 img{
+
+.rightcolumn2 img {
     margin-top: 25px;
 }
-.rightcolumn2 h6{
+
+.rightcolumn2 h6 {
     color: gray;
     margin-left: 463px;
-  margin-top: 1px;
+    margin-top: 1px;
 
 }
-.A{
+
+.A {
     color: black;
 }
-.content3{
+
+.content3 {
     display: flex;
     margin: 0 auto;
     max-width: 60%;
@@ -152,23 +159,27 @@ border-bottom-color: rgb(0, 0, 0);
     border-bottom-style: double;
     border-bottom-color: rgb(0, 0, 0);
 }
-.contentimage{
+
+.contentimage {
     display: flex;
     flex-direction: column;
 }
-.smallimg{
+
+.smallimg {
     height: 150px;
     width: 250px;
     border-right: 1px solid rgb(235, 235, 232);
 }
-.contentimage h1{
+
+.contentimage h1 {
     font-size: 14px;
 }
-.contentimage h6{
+
+.contentimage h6 {
     margin-top: 1px;
 }
 
-#overlay{
+#overlay {
     position: fixed;
     background-color: #0000007a;
     width: 100%;
@@ -178,13 +189,25 @@ border-bottom-color: rgb(0, 0, 0);
     justify-content: center;
     align-items: center;
 }
-#overlay div{
+
+#overlay div {
     background-color: white;
     color: black;
     margin-top: inherit;
     max-width: 50%;
     border: 2px solid black;
 }
-#overlay.hidden{
+
+#overlay.hidden {
     display: none;
+}
+@media screen and (max-width: 480px) {
+    .content {
+        flex-direction: column;
+        outline: 2px solid green;
+        
+    }
+    img.cambio{
+        max-width: 100%;
+    }
 }
