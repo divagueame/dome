@@ -19,6 +19,16 @@ body{
     margin-top: inherit;
     max-width: 50%;
     border: 2px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: "quick";
+}
+#exit{
+    float: right;
+    font-size: 20px;
+}
+#consent-button{
+    font-size: 30px;
 }
 
 #overlay.hidden {

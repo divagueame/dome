@@ -1,3 +1,7 @@
+function hideBannerTemporarily(){
+     let element = document.getElementById("overlay");
+     element.classList.add("hidden");
+}
 function hideBanner() {
 
     let element = document.getElementById("overlay");
@@ -6,6 +10,7 @@ function hideBanner() {
 }
 
 document.getElementById("consent-button").addEventListener("click", hideBanner);
+document.getElementById("exit").addEventListener("click", hideBannerTemporarily);
 
 window.addEventListener("load", function(){
     let bannerHidden = localStorage.getItem("bannerHidden");
