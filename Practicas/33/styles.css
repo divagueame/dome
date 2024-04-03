@@ -76,6 +76,7 @@ footer{
     font-family: "Londrina";
     font-size: 20px;
     color: firebrick;
+    padding: 10px;
 }
 .animals{
     display: flex;
@@ -102,13 +103,15 @@ footer{
     font-family: "Londrina";
     font-size: 20px;
     color: rgb(89, 34, 178);
+    padding: 10px;
 }
 
 .textaboutus{
     text-align: center;
     font-family: "Londrina";
     font-size: 20px;
-    color: rgb(25, 210, 99);
+    color: rgb(24, 65, 1);
+    padding: 10px;
 }
 .follow{
     text-align: center;

@@ -11,6 +11,11 @@ function hideBanner() {
 
 document.getElementById("consent-button").addEventListener("click", hideBanner);
 document.getElementById("exit").addEventListener("click", hideBannerTemporarily);
+document.body.addEventListener("click", function(event){
+    if (!event.target.closest("overlay")){
+        hideBannerTemporarily();
+    }
+});
 
 window.addEventListener("load", function(){
     let bannerHidden = localStorage.getItem("bannerHidden");
@@ -43,4 +48,10 @@ function startImageLoop() {
         currentIndex = (currentIndex + 1) % images.length;
     }, 3000);
 }
+imagen.addEventListener("click", () => {
+    let currentIndex = images.indexOf(imagen.src);
+    currentIndex = (currentIndex + 1) % images.length;
+    imagen.src = images[currentIndex];
+});
+
 startImageLoop();
