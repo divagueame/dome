@@ -1,43 +1,3 @@
-let firstNumber = '';
-let operator = '';
-let secondNumber = '';
-
-function clearDisplay() {
-    document.getElementById('display').value = '';
-    firstNumber = '';
-    operator = '';
-    secondNumber = '';
-}
-
-function deleteLast() {
-    let currentValue = document.getElementById('display').value;
-    document.getElementById('display').value = currentValue.slice(0, -1);
-}
-
-function inputDecimal() {
-    let currentValue = document.getElementById('display').value;
-    if (!currentValue.includes('.')) {
-        document.getElementById('display').value += '.';
-    }
-}
-
-function inputNumber(number) {
-    document.getElementById('display').value += number;
-}
-
-function setOperator(selectedOperator) {
-    operator = selectedOperator;
-    firstNumber = document.getElementById('display').value;
-    document.getElementById('display').value = '';
-    
-}
-
-function calculate() {
-    secondNumber = document.getElementById('display').value;
-    let result = operate(operator, parseFloat(firstNumber), parseFloat(secondNumber));
-    document.getElementById('display').value = result;
-}
-
 function add(a, b) {
     return a + b;
 }
@@ -51,23 +11,138 @@ function multiply(a, b) {
 }
 
 function divide(a, b) {
-    if (b === 0) {
-        return "Error: Division by zero";
+    if (a === 0) {
+        return "Error: Division by zero,Nice try!";
+    }else{
+        return a / b;
     }
-    return a / b;
 }
 
-function operate(operator, num1, num2) {
+let firstNumber = "";
+let secondNumber = "";
+let operator = "";
+let resultValue = "";
+
+function operate(operator, a, b) {
+    first =  parseFloat(a)
+    second =  parseFloat(b)
+
     switch (operator) {
         case '+':
-            return add(num1, num2);
+            return add(a, b)
         case '-':
-            return subtract(num1, num2);
+            return subtract(a, b)
         case '*':
-            return multiply(num1, num2);
+            return multiply(a, b)
         case '/':
-            return divide(num1, num2);
+            return divide(a, b);
         default:
-            return "Error: Invalid operator";
+            return "Error";
+    }
+}  
+
+function logger(){
+
+    console.log("firstNumber:" , firstNumber);
+    console.log("operator:", operator);
+    console.log("secondNumber:", secondNumber);
+}
+
+function updateDisplayElements (type) {
+     
+    const display = document.getElementById('display')
+    if ( type === 'clear'){
+        display.value = ''
+    }else{
+        display.value = firstNumber + " " + operator + " " + secondNumber
     }
 }
+updateDisplayElements()
+
+function inputNumber(){
+    
+    const buttonNumber = document.querySelectorAll('.number');
+    buttonNumber.forEach(button => {
+        button.addEventListener ('click', function(){
+            if (secondNumber === "" && operator === ""){
+                
+                firstNumber += button.value;
+
+            }else {
+
+                secondNumber += button.value;
+            }
+            logger();
+            updateDisplayElements();
+        });
+    }); 
+}
+
+function resetCalculator () {
+    updateDisplayElements('clear');
+    firstNumber = "" ;
+    secondNumber = "" ;
+    operator = "" ;
+
+}
+
+function deleteLast () {
+    if (operator === ''){
+        firstNumber = firstNumber.slice(0, -1);
+    }else if (operator === "operator"){
+        operator = operator.slice(0, -1)
+    }else{
+        secondNumber = secondNumber.slice(0, -1);
+
+    }
+}
+
+function inputOperator() {
+    const operatorButton = document.querySelectorAll('.operator');
+
+    operatorButton.forEach(button => {
+        button.addEventListener ('click', function(){
+            
+            if (button.value === 'AC'){
+                resetCalculator();
+            
+            }else if (button.value === 'DEL'){
+                deleteLast();
+            
+            // }else if (button.value === '.' && (updateDisplayElements() === "" || display.value.includes('.'))){
+            //     return;
+
+            }else {
+                // firstNumber = parseFloat(firstNumber);
+                operator = button.value;
+            } 
+            logger();
+            updateDisplayElements();
+        });
+    });
+
+}
+
+function calculateResult (){
+    const equalButton = document.querySelector('#equals');
+    equalButton.addEventListener ('click', function(){
+
+       if (firstNumber !== "" && operator !== "") { 
+            // operator = operator;
+            // a = firstNumber;
+            // b = secondNumber;
+            resultValue = operate(operator, a, b);
+        } else {
+            console.error("Error");
+        }
+
+    }
+)
+updateDisplayElements();
+logger();
+
+}
+
+inputNumber();
+inputOperator();
+calculateResult();

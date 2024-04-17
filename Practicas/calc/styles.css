@@ -1,10 +1,16 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family:Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
+@font-face {
+    font-family: 'pay' ;
+    src: url(PaybAck.ttf);
 }
-
+*{
+    padding: 0;
+    font-family: 'pay';
+    box-sizing: border-box;
+    overflow: hidden;
+}
+h1{
+    text-align: center;
+}
 .container{
     width: 100%;
     height: 100%;
@@ -18,6 +24,8 @@
     background: #3a4452;
     padding: 20px;
     border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 .calculator form input{
     border: 0;
@@ -51,4 +59,15 @@ form input.equal{
 
 form input.operator{
     color: #33ffd8;
+}
+
+@media only screen and (max-width: 600px) { 
+
+    .line{
+        display: flex;
+    }
+    
+    form .display{
+        margin: 16px 0;
+    }
 }
