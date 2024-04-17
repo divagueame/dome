@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="icon" type="image/png" href="favicon-32x32.png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <form>
+                <div class="display">
+                    <input type="text" id="display" readonly>
+                </div>
+                <div>
+                    <input type="button" value="AC" onclick="clearDisplay()" class="operator">
+                    <input type="button" value="DE" onclick="deleteLast()" class="operator">
+                    <input type="button" value="." onclick="inputDecimal()" class="operator">
+                    <input type="button" value="/" onclick="setOperator('/') " class="operator">
+    
+                </div>
+                <div>
+                    <input type="button" value="7" onclick="inputNumber('7')">
+                    <input type="button" value="8" onclick="inputNumber('8')">
+                    <input type="button" value="9" onclick="inputNumber('9')">
+                    <input type="button" value="*" onclick="setOperator('*')" class="operator">
+    
+                </div>
+                <div>
+                    <input type="button" value="4" onclick="inputNumber('4')">
+                    <input type="button" value="5" onclick="inputNumber('5')">
+                    <input type="button" value="6" onclick="inputNumber('6')">
+                    <input type="button" value="-" onclick="setOperator('-')" class="operator">
+    
+                </div>
+                <div>
+                    <input type="button" value="1" onclick="inputNumber('1')">
+                    <input type="button" value="2" onclick="inputNumber('2')">
+                    <input type="button" value="3" onclick="inputNumber('3')">
+                    <input type="button" value="+" onclick="setOperator('+')" class="operator">
+    
+                </div>
+                <div>
+                    <input type="button" value="00" onclick="inputNumber('00')">
+                    <input type="button" value="0" onclick="inputNumber('0')">
+                    <input type="button" value="=" onclick="calculate()" class="equal operator">
+    
+                </div>
+            </form>
+        </div>
+     </div>
+
+</body>
+</html>
